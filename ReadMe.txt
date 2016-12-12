@@ -1,0 +1,1 @@
+A simple app that outputs time in unix or natural format.
