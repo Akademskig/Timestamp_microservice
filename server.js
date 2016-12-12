@@ -41,6 +41,6 @@ app.get('/:timestring', function(req, res){
     }
 })
 
-app.listen(8080, function(){
+app.listen(process.env.PORT || 8080, function(){
     console.log("Listening on port 8080")
 });
