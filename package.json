@@ -1,0 +1,20 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "a small app that displays timein unix and standard format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timestamp",
+    "microservice"
+  ],
+  "author": "Akademskig",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "moment": "^2.17.1",
+    "stylus": "^0.54.5"
+  }
+}
