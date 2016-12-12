@@ -27,7 +27,7 @@ app.get('/:timestring', function(req, res){
     }
     
     
-    if(date){
+    if(date.isValid()){
         res.send({
             unix: date.format("X"),
             natural: date.format("MMMM D, YYYY")})
