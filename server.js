@@ -27,7 +27,8 @@ app.get('/:timestring', function(req, res){
     }
     
     var d = new Date(date);
-    if(d){
+    console.log(d);
+    if(d != "Invalid Date"){
         res.send({
             unix: d.now(),
             natural: d.toDateString()
